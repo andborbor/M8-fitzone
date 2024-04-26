@@ -1,0 +1,48 @@
+body {
+    font-family: 'Bitter', serif;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url("images/class-3.jpg") no-repeat center top fixed;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.perf-col
+{
+    margin: 20px 100px;
+    border-radius: 10px;
+}
+.perf-col img
+{
+    max-width: 900px;
+    padding-top: 2px;
+}
+.perform-btn
+{
+    margin: 80px auto 100px;
+}
+.btn-per
+{
+    width: 250px;
+    height: 60px;
+    background: transparent;
+    font-size: 20px;
+    border: 2px solid #ffffff;
+    box-shadow: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.btn-per:hover
+{
+    color: #000;
+    background: #ee9e0b;
+    border: 2px solid #000;
+}
+h2
+{
+    margin: 100px 0 120px;
+    text-align: center;
+    font-size: 2em;
+    color: #ee9e0b;
+}

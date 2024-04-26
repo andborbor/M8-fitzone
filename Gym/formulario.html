@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/form.css">
+    <title>Registro</title>
+</head>
+<body>
+    <div class="col-md-6 col-md-offset-3 text-center">
+        <div class="perform-btn">
+            <button id="redirectBtn" type="button" class="btn-per">Back</button>
+        </div>
+    </div>
+    <div class="cont1">
+        <h1>40% Descuento</h1>
+        <h2>Únete al mejor GYM</h2>
+        <h4>Por favor ingresa tus datos para registrarte</h4>
+        <form action="https://formsubmit.co/soporte@fitzone.cat " method="POST">
+            <div>
+                <input type="text" class="inp" id="nombre" name="nombre" placeholder="Nombre" required>
+            </div>
+            <div>
+                <input type="number" class="inp" id="edad" name="edad" placeholder="Edad" required>
+            </div>
+            <div>
+                <select class="selt" id="genero" name="genero" required>
+                    <option value="">Selecciona tu género</option>
+                    <option value="Masculino">Masculino</option>
+                    <option value="Femenino">Femenino</option>
+                </select>
+            </div>
+            <div>
+                <input type="tel" class="inp" id="telefono" name="telefono" placeholder="Teléfono" required>
+            </div>
+            <div>
+                <input type="email" class="inp" id="email" name="email" placeholder="Email" required>
+            </div>
+            <div>
+                <input type="text" class="inp" id="pais" name="pais" placeholder="País">
+            </div>
+            <br>
+            <button class="Submit"><a href="https://app.element.io/">Enviar</a></button>
+        </form>
+    </div>
+    <script>
+        document.getElementById("redirectBtn").addEventListener("click", function() {
+            // Cambia la URL de 'otra_pagina.html' a la página a la que quieras redirigir al usuario.
+            window.location.href = "index.html";
+        });
+        </script>
+    <footer>
+        <div class="footer-container">
+            <div class="social-icon">
+                 <a href=""><i class="fa-brands fa-facebook"></i></a>
+                 <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                 <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                 <a href=""><i class="fa-solid fa-envelope"></i></a>
+            </div>
+            <p>&copy; 2024 GymFitzone - Todos los derechos reservados</p>
+        </div> 
+    </footer>
+</body>
+</html>
